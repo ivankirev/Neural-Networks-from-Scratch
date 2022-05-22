@@ -1,3 +1,5 @@
+The project includes an implementation of a neural network (using only Numpy), Convolutional neural networks (CNN), and CNN with dropout. The aim is to explore the effects of the different techniques and understand how the models work in more detail. 
+
 # Dataset
 
 We explore how two different neural network architectures perform on a supervised classification task on the Fashion-MNIST dataset of images. This data set consists of two files: a training set with 60,000 images and a test set with 10,000 images belonging to 10 classes of items sold by a fashion online store, e.g., T-shirt/top, Trouser, Pullover, Dress, etc. The Fashion-MNIST dataset is well balanced, i.e., it has 6,000 images of each class in the training set and 1,000 images of each class in the test set.
