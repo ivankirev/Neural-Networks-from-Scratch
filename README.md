@@ -21,3 +21,7 @@ The input layer is followed by 5 hidden layers in total (of which the first 4 ar
 To reduce overfitting, we incorporate dropout in the fully connected layer. We now use only 80% of the training set for the actual training and leave the other 20% as a validation set. We scan over a suitable range of the dropout probability (range [0.1, 0.9] in steps of 0.1) to find an optimal value of this dropout probability, using accuracy on the validation set as the measure of performance for this search. 
 
 Then we fix the optimal dropout, and retrain the model on the full training set. Evaluate the loss and accuracy over epochs for both the training and test sets, and compare them to the model without the dropout layer. The point is to observe the effect on overfitting of the incorporation of a dropout. 
+
+# Dimensionality Reduction and K-means Clustering on the Fashion MNIST dataset
+
+We use PCA dimensionality reduction on the Fashion MNIST dataset. Then we perform k-means clustering algorithm and choose an optimal k and interpret the results with relation to the dataset.
